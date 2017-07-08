@@ -3,18 +3,6 @@
 **/
 
 @media screen and (min-width: 320px) {
-  // .page::before {
-  //   content: "320px";
-  //   font-family: Arial, sans-serif;
-  //   color: green;
-  //   position: fixed;
-  //   top: 0;
-  //   left: 0;
-  //   font-weight: 700;
-  //   margin: 5px;
-  //   font-size: 2.4rem;
-  //   z-index: 9999;
-  // }
   .frontpage-mobile {
     display: flex;
   }
@@ -27,20 +15,29 @@
   [class*='tablet-text'] {
     display: none;
   }
+  [class*='example-'] {
+    background-size: cover;
+  }
+  .example-1 {
+    background-image: url(../images/portfolio/mobile-sized-examples/mobile-example1.jpg);
+  }
+  .example-2 {
+    background-image: url(../images/portfolio/mobile-sized-examples/mobile-example2.jpg);
+  }
+  .example-3 {
+    background-image: url(../images/portfolio/mobile-sized-examples/mobile-example3.jpg);
+  }
+  .example-4 {
+    background-image: url(../images/portfolio/mobile-sized-examples/mobile-example4.jpg);
+  }
+  .example-5 {
+    background-image: url(../images/portfolio/mobile-sized-examples/mobile-example5.jpg);
+  }
 }
 
-@media screen and (min-width: 480px) {
-  // .page::before {
-  //   content: "480px";
-  //   color: maroon;
-  // }
-}
+@media screen and (min-width: 480px) {}
 
 @media screen and (min-width: 620px) {
-  // .page::before {
-  //   content: "620px";
-  //   color: orange;
-  // }
   .frontpage-mobile {
     background-size: contain;
     background-position: 50% 0;
@@ -51,20 +48,14 @@
   [class*='tablet-text'] {
     display: block;
   }
+  [class*='example-'] {
+    background-size: contain;
+  }
 }
 
-@media screen and (min-width: 810px) {
-  // .page::before {
-  //   content: "810px";
-  //   color: black;
-  // }
-}
+@media screen and (min-width: 810px) {}
 
 @media screen and (min-width: 1024px) {
-  // .page::before {
-  //   content: "1400px";
-  //   color: red;
-  // }
   .frontpage-mobile {
     display: none;
   }
@@ -77,5 +68,23 @@
     -webkit-transition: width 500ms ease-in-out;
     -moz-transition: width 500ms ease-in-out;
     transition: width 500ms ease-in-out;
+  }
+  [class*='example-'] {
+    background-size: cover;
+  }
+  .example-1 {
+    background-image: url(../images/portfolio/laptop-sized-examples/example1.jpg);
+  }
+  .example-2 {
+    background-image: url(../images/portfolio/laptop-sized-examples/example2.jpg);
+  }
+  .example-3 {
+    background-image: url(../images/portfolio/laptop-sized-examples/example3.jpg);
+  }
+  .example-4 {
+    background-image: url(../images/portfolio/laptop-sized-examples/example4.jpg);
+  }
+  .example-5 {
+    background-image: url(../images/portfolio/laptop-sized-examples/example5.jpg);
   }
 }

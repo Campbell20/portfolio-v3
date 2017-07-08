@@ -1,17 +1,18 @@
 [class*='frontpage'] {
     flex-flow: row nowrap;
     background-color: #b7b7b7;
-    height: 568px;
     width: 100%;
 }
 
 .frontpage {
+    height: 568px;
     padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .frontpage-mobile {
+    height: 100%;
     justify-content: space-around;
     align-items: center;
     background-image: url(../images/frontpage/halfandhalf-john.png);
@@ -36,11 +37,13 @@
 .mobile-text-1 h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 234%;
+    text-shadow: -4px 6px 1px black;
 }
 
 .mobile-text-2 h1 {
     font-family: 'VT323', monospace;
     font-size: 285%;
+    text-shadow: 4px 6px 1px black;
 }
 
 [class*='tablet-text'] {
@@ -55,12 +58,21 @@
     display: none;
     flex-flow: column nowrap;
     align-items: center;
+    margin-bottom: 260px;
 }
 
 [class*='laptop-text'] p {
     text-align: left;
     min-width: 150px;
     max-width: 150px;
+}
+
+.laptop-text-1 h1 {
+    text-shadow: -4px 6px 1px black;
+}
+
+.laptop-text-2 h1 {
+    text-shadow: 4px 6px 1px black;
 }
 
 [class*='col-'] {
