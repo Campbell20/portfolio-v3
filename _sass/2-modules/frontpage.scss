@@ -1,0 +1,101 @@
+[class*='frontpage'] {
+    flex-flow: row nowrap;
+    background-color: #b7b7b7;
+    height: 568px;
+    width: 100%;
+}
+
+.frontpage {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.frontpage-mobile {
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/frontpage/halfandhalf-john.png);
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: 35% 0;
+}
+
+[class*='text'] {
+    color: white;
+}
+
+[class*='mobile-text'] {
+    text-align: center;
+    margin-bottom: 260px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-text-1 h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 234%;
+}
+
+.mobile-text-2 h1 {
+    font-family: 'VT323', monospace;
+    font-size: 285%;
+}
+
+[class*='tablet-text'] {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-family: arial;
+    text-align: left;
+}
+
+[class*='laptop-text'] {
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+[class*='laptop-text'] p {
+    text-align: left;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+[class*='col-'] {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.col-1 h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 234%;
+}
+
+.col-2 h1 {
+    font-family: 'VT323', monospace;
+    font-size: 285%;
+}
+
+[class*='image'] {
+    background-size: initial;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 518px;
+    width: 100%;
+    background-position-x: 50%;
+}
+
+.designerimage {
+    background-image: url(../images/frontpage/cartoon-john.png);
+    direction: rtl;
+}
+
+.coderimage {
+    background-image: url(../images/frontpage/realistic-john.png);
+    direction: ltr;
+    overflow: hidden;
+}

@@ -1,0 +1,25 @@
+---
+---
+
+//normalize the website, then load the media queries
+//media queries are based on mobile first wireframes
+@import "0-tools/normalize";
+
+
+
+//import the navigation bar
+@import "1-navi/nav";
+
+//fix the body positioning
+body {
+    position: relative;
+}
+
+//import each module
+@import "2-modules/frontpage";
+@import "2-modules/portfolio";
+@import "2-modules/skills";
+@import "2-modules/about";
+
+
+@import "0-tools/media-queries";

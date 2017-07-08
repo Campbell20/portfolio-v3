@@ -1,0 +1,14 @@
+/**
+* Media Queries
+**/
+@media screen and (min-width: 1400px) {
+  .col-l:hover {
+    width: 100%;
+    -webkit-transition: width 500ms ease-in-out;
+    -moz-transition: width 500ms ease-in-out;
+    transition: width 500ms ease-in-out; }
+
+  .col-r:hover {
+    width: 100%; } }
+
+/*# sourceMappingURL=media-queries.css.map */
