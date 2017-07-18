@@ -33,9 +33,17 @@
   .example-5 {
     background-image: url(../images/portfolio/mobile-sized-examples/mobile-example5.jpg);
   }
-  
-  .art-810px {
+  .artcolumns-container {
     display: none;
+  }
+  .portfolio .carousel {
+    margin: 0 32px;
+  }
+  #art {
+    height: 568px;
+  }
+  [class*='art-'] {
+    flex-flow: column;
   }
 }
 
@@ -58,12 +66,17 @@
 }
 
 @media screen and (min-width: 810px) {
-  
-   .art-810px {
-     display: block;
+  .artcolumns-container {
+    display: flex;
   }
   .art-320px {
     display: none;
+  }
+  .portfolio .carousel {
+    margin: 0 60px;
+  }
+  #art {
+    height: 1115px;
   }
 }
 
@@ -98,5 +111,11 @@
   }
   .example-5 {
     background-image: url(../images/portfolio/laptop-sized-examples/example5.jpg);
+  }
+  [class*='art-'] {
+    flex-flow: row nowrap;
+  }
+  #art {
+    height: 620px;
   }
 }
