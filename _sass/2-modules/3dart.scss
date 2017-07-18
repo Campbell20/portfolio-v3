@@ -1,4 +1,6 @@
 #art {
+    background-image: url("../images/art-background.jpg");
+    background-repeat: no-repeat;
     background-color: #865a7e;
     height: 568px;
     width: 100%;
@@ -8,12 +10,16 @@
 }
 
 .carousel-320px .carousel {
+    background-image: url("../images/art-background.jpg");
+    background-repeat: no-repeat;
     background-color: #865a7e;
     margin: 0 30px;
     /* space for prev/next buttons */
 }
 
 .carousel-810px .carousel {
+    background-image: url("../images/coding-background.jpg");
+    background-repeat: no-repeat;
     background-color: #865a7e;
     margin: 0 60px;
     /* space for prev/next buttons */
