@@ -45,6 +45,15 @@
   [class*='art-'] {
     flex-flow: column;
   }
+  
+  [class*='row-'] {
+    // background-color: white;
+    width: 100%;
+}
+  .skills-container {
+    flex-flow: column;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 480px) {}
@@ -62,6 +71,15 @@
   }
   [class*='example-'] {
     background-size: contain;
+  }
+  
+    [class*='row-'] {
+    // background-color: white;
+    width: 20%;
+}
+   .skills-container {
+    flex-flow: row nowrap;
+    justify-content: space-around;
   }
 }
 

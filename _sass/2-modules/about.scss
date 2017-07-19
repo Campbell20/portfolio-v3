@@ -1,6 +1,23 @@
 #about {
     padding-top: 50px;
     background-color: #a496ac;
-    height: 568px;
+    height: 100%;
     width: 100%;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    text-align: left;
+}
+
+[class*='row-'] ul {
+    // background-color: white;
+    color: white;
+    list-style-type: none;
+}
+
+[class*='h3-container-'] {
+    background-color: red;
+    text-align: center;
 }
